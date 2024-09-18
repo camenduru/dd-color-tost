@@ -1,6 +1,6 @@
 import os, json, requests, random, runpod
 
-import cv2
+import cv2, torch
 from modelscope.outputs import OutputKeys
 from modelscope.pipelines import pipeline
 from modelscope.utils.constant import Tasks
