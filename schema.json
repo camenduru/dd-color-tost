@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "DDColor: Towards Photo-Realistic Image Colorization via Dual Decoders",
+      "author": "Xiaoyang Kang, Tao Yang, Wenqi Ouyang, Peiran Ren, Lingzhi Li, Xuansong Xie",
+      "paper": "https://arxiv.org/abs/2212.11613",
+      "code": "https://github.com/piddnad/DDColor",
+      "jupyter": "https://github.com/camenduru/DDColor-colab",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/dd-color.ipynb",
+      "tags": [
+        "Image to Image"
+      ],
+      "widget": "readme"
+    },
+    "input_image_check": {
+        "type": "string",
+        "description": "Input Image URL",
+        "widget": "textarea"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
