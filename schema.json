@@ -19,6 +19,14 @@
         "type": "string",
         "description": "Input Image URL",
         "widget": "textarea"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/800x628/282828/eae0d0/?text=input#.png",
+      "image2": "https://files.catbox.moe/2unslt.jpg",
+      "image3": "https://fakeimg.pl/800x628/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/48sexg.png",
+      "widget": "example"
     }
   },
   "buttons": [
