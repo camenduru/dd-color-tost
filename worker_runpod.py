@@ -24,7 +24,7 @@ def generate(input):
     values = input["input"]
 
     input_image = values['input_image_check']
-    input_image = download_file(url=input_video, save_dir='/content')
+    input_image = download_file(url=input_image, save_dir='/content')
 
     img_colorization_pipe = img_colorization(input_image)
     output_image = img_colorization_pipe[OutputKeys.OUTPUT_IMG].astype(np.uint8)
