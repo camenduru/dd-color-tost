@@ -17,4 +17,4 @@ https://www.modelscope.cn/models/damo/cv_ddcolor_image-colorization/summary
 ### 🖼 Output
 
 ### 🏢 Sponsor
-https://runpod.io
+[https://runpod.io](https://runpod.io?ref=iqi9iy8y)
